@@ -15,6 +15,9 @@
 		CF7808711DD957A6009DFC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7808701DD957A6009DFC30 /* Assets.xcassets */; };
 		CF7808741DD957A6009DFC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7808721DD957A6009DFC30 /* LaunchScreen.storyboard */; };
 		CF78087D1DD95873009DFC30 /* MQSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF78087C1DD95873009DFC30 /* MQSecondViewController.m */; };
+		CFAEA7EF1ED91289003A34F5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CFAEA7EB1ED91289003A34F5 /* LICENSE */; };
+		CFAEA7F01ED91289003A34F5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEA7ED1ED91289003A34F5 /* MBProgressHUD.m */; };
+		CFAEA7F11ED91289003A34F5 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = CFAEA7EE1ED91289003A34F5 /* README.mdown */; };
 		CFCC0E1F1DDC60260070B30A /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCC0E1E1DDC60260070B30A /* UIImage+image.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,10 @@
 		CF7808751DD957A6009DFC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF78087B1DD95873009DFC30 /* MQSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQSecondViewController.h; sourceTree = "<group>"; };
 		CF78087C1DD95873009DFC30 /* MQSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSecondViewController.m; sourceTree = "<group>"; };
+		CFAEA7EB1ED91289003A34F5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CFAEA7EC1ED91289003A34F5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CFAEA7ED1ED91289003A34F5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CFAEA7EE1ED91289003A34F5 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
 		CFCC0E1D1DDC60260070B30A /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
 		CFCC0E1E1DDC60260070B30A /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +74,7 @@
 		CF7808631DD957A6009DFC30 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				CFAEA7EA1ED91289003A34F5 /* MBProgressHUD */,
 				CFCC0E1D1DDC60260070B30A /* UIImage+image.h */,
 				CFCC0E1E1DDC60260070B30A /* UIImage+image.m */,
 				CF7808671DD957A6009DFC30 /* AppDelegate.h */,
@@ -92,6 +100,17 @@
 				CF7808651DD957A6009DFC30 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFAEA7EA1ED91289003A34F5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEA7EB1ED91289003A34F5 /* LICENSE */,
+				CFAEA7EC1ED91289003A34F5 /* MBProgressHUD.h */,
+				CFAEA7ED1ED91289003A34F5 /* MBProgressHUD.m */,
+				CFAEA7EE1ED91289003A34F5 /* README.mdown */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +173,7 @@
 			files = (
 				CF7808741DD957A6009DFC30 /* LaunchScreen.storyboard in Resources */,
 				CF7808711DD957A6009DFC30 /* Assets.xcassets in Resources */,
+				CFAEA7EF1ED91289003A34F5 /* LICENSE in Resources */,
 				CF78086F1DD957A6009DFC30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +190,9 @@
 				CF78086C1DD957A6009DFC30 /* ViewController.m in Sources */,
 				CF7808691DD957A6009DFC30 /* AppDelegate.m in Sources */,
 				CF7808661DD957A6009DFC30 /* main.m in Sources */,
+				CFAEA7F11ED91289003A34F5 /* README.mdown in Sources */,
 				CFCC0E1F1DDC60260070B30A /* UIImage+image.m in Sources */,
+				CFAEA7F01ED91289003A34F5 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
